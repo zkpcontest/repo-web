@@ -1,0 +1,14 @@
+@import "~bootstrap/scss/bootstrap";
+@import "~react-toastify/dist/ReactToastify.min.css";
+
+
+.nav-link-button.btn-sm {
+    padding: $btn-padding-y-sm $btn-padding-x-sm $btn-padding-y-sm $btn-padding-x-sm;
+}
+
+
+@media all and (max-width: 768px) {
+    .contract-card-col {
+        border-right: 0 !important;
+    }
+}
